@@ -1,4 +1,4 @@
-/*document.getElementById('about').addEventListener('DOMContentLoaded', cargarPosts);
+document.addEventListener('DOMContentLoaded', cargarPosts);
 
 
 
@@ -13,6 +13,4 @@ async function cargarPosts() {
 cargarPosts()
     .then (posts => console.log(posts));
 
-*/
-const about = document.getElementById('about');
-console.log(about);
+
