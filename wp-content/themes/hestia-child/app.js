@@ -12,7 +12,7 @@ async function cargarPosts() {
 
 cargarPosts()
     .then (posts => {
-        const contenido = document.getElementById('about');
+        const contenido = document.getElementsByClassName('hestia-about-content');
         const principal = document.createElement('div');
         principal.className = 'row';
         principal.innerHTML = `
