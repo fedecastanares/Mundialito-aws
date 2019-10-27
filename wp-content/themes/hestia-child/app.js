@@ -1,4 +1,4 @@
-document.getElementById('contenido').addEventListener('DOMContentLoaded', cargarPosts);
+document.getElementById('hestia-about').addEventListener('DOMContentLoaded', cargarPosts);
 
 
 
