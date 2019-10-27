@@ -1,3 +1,3 @@
-const contenido = document.getElementById("about");
-
-console.log(contenido);
+document.getElementById('contenido').addEventListener('DOMContentLoaded',() =>{
+    console.log("Ejecuto cuando cargue");
+})
