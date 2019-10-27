@@ -1,7 +1,7 @@
 document.getElementById('about').addEventListener('DOMContentLoaded', cargarPosts);
 
-
-console.log(document.getElementById('about').childNodes);
+const about = document.getElementById('about');
+console.log(about);
 
 async function cargarPosts() {
         // Para produccion poner window.local
