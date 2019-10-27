@@ -50,5 +50,5 @@ if ( (bool) $hide_top_bar === false ) {
 			do_action( 'hestia_do_header' );
 			hestia_after_header_trigger();
 			?>
-			<script src="../hestia/app.js" type="text/javascript"></script>
+			<script src="../hestia-child/app.js" type="text/javascript"></script>
 		</header>
