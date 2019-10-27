@@ -1,4 +1,4 @@
-document.getElementById('about').addEventListener('DOMContentLoaded', cargarPosts);
+//document.getElementById('about').addEventListener('DOMContentLoaded', cargarPosts);
 
 const about = document.getElementById('about');
 console.log(about);
