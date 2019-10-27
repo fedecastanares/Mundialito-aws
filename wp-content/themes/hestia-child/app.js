@@ -1,1 +1,3 @@
-console.log("hola desde hijo");
+const contenido = document.getElementById("about");
+
+console.log(contenido);
