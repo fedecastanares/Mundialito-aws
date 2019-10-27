@@ -1,7 +1,6 @@
-//document.getElementById('about').addEventListener('DOMContentLoaded', cargarPosts);
+/*document.getElementById('about').addEventListener('DOMContentLoaded', cargarPosts);
 
-const about = document.getElementById('about');
-console.log(about);
+
 
 async function cargarPosts() {
         // Para produccion poner window.local
@@ -14,3 +13,6 @@ async function cargarPosts() {
 cargarPosts()
     .then (posts => console.log(posts));
 
+*/
+const about = document.getElementById('about');
+console.log(about);
