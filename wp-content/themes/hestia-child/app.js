@@ -11,11 +11,14 @@ async function cargarPosts() {
 }
 
 
+cargarPosts()
+    .then (
 posts.forEach(post => {
     console.log("tres HOLA");
     
-});
+})
 
+)
 /*
 cargarPosts()
     .then (posts.forEach (post => {
