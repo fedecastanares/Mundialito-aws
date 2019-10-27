@@ -1,7 +1,7 @@
 document.getElementById('about').addEventListener('DOMContentLoaded', cargarPosts);
 
 
-
+console.log(document.getElementById('about').childNodes);
 
 async function cargarPosts() {
         // Para produccion poner window.local
@@ -13,3 +13,4 @@ async function cargarPosts() {
 
 cargarPosts()
     .then (posts => console.log(posts));
+
