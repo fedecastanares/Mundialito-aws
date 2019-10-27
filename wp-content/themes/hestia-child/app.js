@@ -1,3 +1,12 @@
-document.getElementById('contenido').addEventListener('DOMContentLoaded',() =>{
-    console.log("Ejecuto cuando cargue");
-})
+document.getElementById('contenido').addEventListener('DOMContentLoaded', cargarPosts);
+
+
+
+
+function cargarPosts() {
+        // Para produccion poner window.local
+    let url = `http://54.153.122.87/wp-json/wp/v2/posts`;
+    let respuesta = await fetch(url)
+    const datos = await respuesta.json();
+    console.log(datos);
+}
