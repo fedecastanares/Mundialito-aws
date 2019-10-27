@@ -15,3 +15,5 @@ function theme_slug_enqueue_styles() {
  
 /* Aquí tus funciones personales */
 ?>
+
+<script src="./app.js" type="text/javascript"></script>
