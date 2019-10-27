@@ -10,15 +10,35 @@ async function cargarPosts() {
     return posts;
 }
 
+
+posts.forEach(post => {
+    console.log("tres HOLA");
+    
+});
+
+/*
 cargarPosts()
-    .then (posts => {
-        const contenido = document.getElementsByClassName('hestia-about-content');
-        const principal = document.createElement('div');
-        principal.className = 'row';
-        principal.innerHTML = `
-            hola
-    `
-    contenido.appendChild(principal);
-    });
+    .then (posts.forEach (post => {
+        let post = document.createElement('div');
+        post.className = 'card';
+        const 
+
+        /*
+        post.innerHTML = `
+                <img class="card-img-top" src="https://images.unsplash.com/photo-1517303650219-83c8b1788c4c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bd4c162d27ea317ff8c67255e955e3c8&auto=format&fit=crop&w=2691&q=80" alt="Foto de card"></img>
+                    <div className="card-header card-header-icon card-header-success">
+                     <div className="card-icon">
+                        <i className="material-icons">sports-soccer</i>
+                     </div>
+                    </div>
+                <div className="card-body">
+                <h4 className="card-title">Here is the Icon</h4>
+                        The place is close to Barceloneta Beach and bus stop just 2 min by walk and near to "Naviglio" where you can enjoy the main night life in Barcelona...
+                </div>
+    ` 
+    const contenido = document.getElementById('listPosts');
+    contenido.appendChild(post);
+    }))
+        */
 
 
